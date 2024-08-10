@@ -1,0 +1,26 @@
+:root { /* variáveis na raiz */
+    --branco-principal: #FFFFFF; 
+    --cinza-secundario: #c0c0c0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+}
+
+body {
+    background-color: var(--cor-de-fundo); /* cor de fundo */
+    color: var(--branco-principal); /* cor do texto no body */
+}
+
+* {
+    margin: 0; /* margem */
+    padding: 0; /* preenchimento */
+}
+
+.principal {
+    background-image: url("img/Background.png"); /* imagem de fundo */
+    background-repeat: no-repeat; /* não espelhar a imagem */
+    background-size: contain; /* tamanho do fundo para preencher todo o container */
+}
+
+.container {
+    height: 100vh; /* altura 100% da tela */
+}
