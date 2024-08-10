@@ -23,6 +23,8 @@ body {
 
 .container {
     height: 100vh; /* altura 100% da tela */
+    display: grid; /* separa os elementos por tela (padrão: linhas) */
+    grid-template-columns: 50% 50%; /* ocupa o espaço por colunas */
 }
 
 .container__botao {
@@ -32,3 +34,10 @@ body {
     color: var(--branco-principal); /* cor da escrita no botão */
     display: block; /* ocupar o bloco inteiro */
 }
+
+.botao_secundario {
+    background-color: transparent; /* fundo transparente */
+    border: 2px solid var(--branco-principal); /* tamanho da borda e linha sólida com a cor branca */
+}
+
+
