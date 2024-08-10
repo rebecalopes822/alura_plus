@@ -24,3 +24,11 @@ body {
 .container {
     height: 100vh; /* altura 100% da tela */
 }
+
+.container__botao {
+    background-color: var(--botao-azul); /*cor de fundo do botão */
+    border-radius: 5px; /* bordas arredondadas */
+    padding: 1em; /* margem interna no botão */
+    color: var(--branco-principal); /* cor da escrita no botão */
+    display: block; /* ocupar o bloco inteiro */
+}
