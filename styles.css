@@ -3,11 +3,15 @@
     --cinza-secundario: #c0c0c0;
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
+    --fonte-principal: 'Inter';
 }
 
 body {
     background-color: var(--cor-de-fundo); /* cor de fundo */
     color: var(--branco-principal); /* cor do texto no body */
+    font-family: var(--fonte-principal); /* nome da fonte */
+    font-size: 16px; /* tamanho da fonte */
+    font-weight: 400; /* peso da fonte */
 }
 
 * {
@@ -27,17 +31,28 @@ body {
     grid-template-columns: 50% 50%; /* ocupa o espaço por colunas */
 }
 
-.container__botao {
+.container__botao { 
     background-color: var(--botao-azul); /*cor de fundo do botão */
     border-radius: 5px; /* bordas arredondadas */
     padding: 1em; /* margem interna no botão */
     color: var(--branco-principal); /* cor da escrita no botão */
     display: block; /* ocupar o bloco inteiro */
+    text-decoration: none; /* sem decoração do texto */
 }
 
-.botao_secundario {
+.botao_secundario { 
     background-color: transparent; /* fundo transparente */
     border: 2px solid var(--branco-principal); /* tamanho da borda e linha sólida com a cor branca */
+}
+
+.container__aviso {
+    font-size: 12px; /* fonte do aviso */
+    color: var(--cinza-secundario); /* cor do aviso */
+}
+
+.container__titulo {
+    font-size: 28px; /* fonte do titulo */
+    font-weight: 700; /* peso do título */
 }
 
 
