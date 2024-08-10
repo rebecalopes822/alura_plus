@@ -23,6 +23,8 @@ body {
     background-image: url("img/Background.png"); /* imagem de fundo */
     background-repeat: no-repeat; /* não espelhar a imagem */
     background-size: contain; /* tamanho do fundo para preencher todo o container */
+    align-items: center; /* alinhar ao centro da coluna */
+    text-align: center; /* alinha no centro toda a seção */
 }
 
 .container {
@@ -38,6 +40,7 @@ body {
     color: var(--branco-principal); /* cor da escrita no botão */
     display: block; /* ocupar o bloco inteiro */
     text-decoration: none; /* sem decoração do texto */
+    margin-bottom: 1em;
 }
 
 .botao_secundario { 
@@ -55,4 +58,10 @@ body {
     font-weight: 700; /* peso do título */
 }
 
+.container__imagem {
+    margin: 1em 0 2em 0; /* margem para imagem */
+}
 
+.container__caixa {
+    margin: 0 6em; /* margem da div completa */
+}
