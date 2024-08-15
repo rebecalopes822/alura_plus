@@ -65,3 +65,24 @@ body {
 .container__caixa {
     margin: 0 6em; /* margem da div completa */
 }
+
+.secundario__imagem {
+    width: 80%; /* ocupação da imagem */
+}
+
+.secundario {
+    align-items: center; /* centralizando os elementos da coluna */
+    margin: 0 10em; /* margem dos elementos da coluna */
+}
+
+.descricao__titulo {
+    font-weight: 700; /* peso da fonte da descrição */
+    font-size: 48px; /* tamanho */
+    color: var(--branco-principal); /* cor */
+    margin-bottom: 0.1em; /* distância do título e descrição */
+}
+
+
+.descicao__texto {
+    color: var(--cinza-secundario); /* cor do texto */
+}
