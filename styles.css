@@ -86,3 +86,12 @@ body {
 .descicao__texto {
     color: var(--cinza-secundario); /* cor do texto */
 }
+
+.secundario__botao {
+    display: inline-block; /* botão ficou organizado em linhas e abaixo do texto */
+    margin-top: 1em; /* mergem do botão */
+}
+
+.container__descricao {
+    padding: 1em;
+}
