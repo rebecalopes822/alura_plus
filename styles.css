@@ -160,3 +160,39 @@ body {
     background-color: var(--botao-azul-efeito); /* cor de fundo */
     color: var(--cor-de-fundo); /* cor do texto  */
 }
+
+
+/* responsividade */
+
+@media  screen and (max-width: 768px) { /* condições pra aparelhos com a largura especificada */
+    .container {
+        display: block; /* organização em blocos */
+        background-image: none; /* sem imagem de fundo */
+    }
+    
+    .container__imagem { 
+        width: 50vw; /* imagem vai ocupar 50% do tamanho da página (largura) */
+    }
+    
+    .container__caixa { 
+        margin: 2em 2em; /* margem para distribuição */
+    }
+
+    .secundario {
+        margin: 0; /* margem */
+        text-align: center; /* tudo centralizado */
+    }
+
+    .secundario__imagem {
+        width: 50%; /* imagem vai ocupar 50% do tamanho da página (largura) */
+    }
+
+    .dispositivos__lista {
+        display: block; /* organização em blocos */
+    }
+
+    .rodape__lista {
+        display: block; /* organização em blocos */
+    }
+
+}
