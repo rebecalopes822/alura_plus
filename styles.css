@@ -4,6 +4,7 @@
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
     --fonte-principal: 'Inter';
+    --botao-azul-efeito: #5278a7;
 }
 
 body {
@@ -82,8 +83,7 @@ body {
     margin-bottom: 0.1em; /* distância do título e descrição */
 }
 
-
-.descicao__texto {
+.descricao__texto {
     color: var(--cinza-secundario); /* cor do texto */
 }
 
@@ -93,5 +93,66 @@ body {
 }
 
 .container__descricao {
-    padding: 2em;
+    padding: 2em; /* espaço interno entre o conteúdo do elemento e a borda */
+}
+
+.dispositivos__lista {
+    display: flex; /*  organizado um do lado do outro */
+    justify-content: center; /* centraliza */
+    list-style-type: none; /* nenhum tipo de estilo da lista */
+    margin: 5em 0; /* margem das imagens */
+}
+
+.dispositivos {
+    text-align: center; /* alinhamento do texto */
+}
+
+.dispositivos__titulo {
+    font-size: 48px; /* tamanho da fonte */
+    color: var(--branco-principal); /* cor */
+}
+
+.lista__item{
+    font-size: 32px; /* tamanho da fonte */
+    color: var(--branco-principal); /* cor */
+}
+
+.rodape {
+    text-align: center; /* alinhamento */
+    margin: 0 3em; /* margem  */
+}
+
+.rodape__lista {
+    display: flex; /* alinha e distribui o espaço entre os itens */
+    justify-content: center; /* alinha itens dentro do contêiner flexbox ao centro na horizontal */
+    list-style-type: none; /* remove marcadores padrão de uma lista */
+    margin-top: 1em; /* margem para afastar o conteúdo acima */
+}
+
+
+.lista__link a{
+    text-decoration: none; /* sem decoração nos links */
+    color: var(--branco-principal); /* cor */
+    margin-left: 1em; /* margem */
+}
+
+.rodape__texto {
+    color: var(--cinza-secundario); /* cor */
+    font-size: 14px; /* fonte */
+    margin: 1em 0; /* margem */
+}
+
+/* pseudo-classes */
+
+.lista__link a:hover {
+    color: var(--botao-azul); /* cor ao passar o mouse em cima do link */
+}
+
+.lista__link a:active {
+    color: violet; /* cor após clicar no link */
+}
+
+.container__botao:hover { /* pseudo-classe para alterar a cor quando passar o mouse em cima do botão*/
+    background-color: var(--botao-azul-efeito); /* cor de fundo */
+    color: var(--cor-de-fundo); /* cor do texto  */
 }
